@@ -17,9 +17,9 @@ mounstro_t evolucion(mounstro_t m){
 int main(){
 
     mounstro_t m1 = {"Juli", 10, 7, 3};
-    printf("Mi mounstro  es: %s %d %f %f", m1.nombre, m1.vida , m1.ataque, m1.defensa);
+    printf("Mi mounstro  es: %s %d %f %f \n", m1.nombre, m1.vida , m1.ataque, m1.defensa);
 
-    mounstro_t res = evolucion();
-    printf("Mi mounstro evolucionado es: %s %d %f %f", res.nombre,res.vida , res.ataque, res.defensa);
-    return 0
+    mounstro_t res = evolucion(m1);
+    printf("Mi mounstro evolucionado es: %s %d %f %f\n", res.nombre,res.vida , res.ataque, res.defensa);
+    return 0;
 }
