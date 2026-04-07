@@ -23,3 +23,16 @@ La direccion donde esta el puntero y donde esta la memoria de X
 El valor el cual eesta apuntando p
 */
 
+/*
+Ej 4
+Los valores que se imprimieron son :
+Direccion de x: 0x7fffd20c527c Valor: 42
+Direccion de p: 0x7fffd20c5280 Valor: 0x7fffd20c527c
+Valor de lo que apunta p: 42
+
+Esos son:
+Donde esta X en la memoria y su valor 
+Donde esta p en la memoria que es x pero extendido en memoria y el valor de p que es la 
+direccion de memoria de X
+EL valor al cual apunta p que es 42
+*/
