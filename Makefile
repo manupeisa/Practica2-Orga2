@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -pedantic
-TARGETS = ej1 ej2 ej3
+TARGETS = ej1 ej2 ej3 ej5 
 #TARGETS = malloc
 all: $(TARGETS)
 
