@@ -1,10 +1,10 @@
 #include <stdio.h> 
 
 typedef struct {
-    nombre char[];
-    vida int;
-    ataque double;
-    defensa double;
+    char[] nombre;
+    int vida;
+    double ataque;
+    double defensa;
 } mounstro_t;
 
 mounstro_t mounstros[] = {
