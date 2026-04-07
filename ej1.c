@@ -1,7 +1,7 @@
 #include <stdio.h> 
 
 typedef struct {
-    char[20] nombre;
+    char nombre[20];
     int vida;
     double ataque;
     double defensa;
