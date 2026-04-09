@@ -12,7 +12,7 @@ typedef struct persona_s {
 
 
 persona_t *crearPersona(char n[], int e){
-    persona_t *p = malloc(NAME_LEN*sizeof(char)*sizeof(int));
+    persona_t *p = malloc(sizeof(persona_t));
     if(p == NULL){
         return NULL;
     }
