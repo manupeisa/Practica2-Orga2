@@ -279,6 +279,7 @@ void* listRemove(list_t* l, uint8_t i){
     l->size--;
 
     return data;
+    free(data);
 }
 
 void listDelete(list_t* l){
